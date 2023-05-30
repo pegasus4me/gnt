@@ -10,7 +10,7 @@ const Footer = () => {
         <div className='bg-black border-t-slate-100'>
             <h2 className='text-white font-bold text-6xl font-display text-center p-2'>IN GNT WE TRUST</h2>
         
-            <div className='flex justify-between items-center p-4 '>
+            <div className='flex justify-between items-center p-4 flex-wrap'>
                 <img src={spacex} alt="spacex" />
                 <img src={microsoft} alt="spacex" />
                 <img src={gouv} alt="spacex" />

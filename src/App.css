@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html  {
+    background-image: url('./assets/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 const Pricefeed = () => {
   return (
     <>
-      <h3 className="font-display font-bold text-4xl text-center text-yellow-200">
+      <h3 className="font-display font-bold text-5xl text-center text-yellow-200 ">
         - Live chart & trade bar -
       </h3>
       <div className="flex items-center flex-wrap justify-center ">

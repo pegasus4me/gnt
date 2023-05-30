@@ -16,8 +16,8 @@ const main = () => {
                 </div>
                 
                 <div className='flex justify-center flex-col items-center'>
-                <button className='bg-yellow-300 font-display w-52 rounded mb-3'>Explore</button>
-                <button className='bg-white font-display  w-52 rounded '>game</button>
+                <button className='bg-yellow-300 font-display w-52 rounded mb-3 p-3'>Explore</button>
+                <button className='bg-white font-display  w-52 rounded p-3'>game</button>
                 </div>
             </div>
            

@@ -10,21 +10,23 @@ const Partners = () => {
         <section className='mt-10 mb-10' id='partners'>
             <h3 className='text-yellow-200 font-bold text-3xl font-display text-center  '>PARTNERS</h3>
             <h5 className='text-white font-display text-xl text-center mb-4'>" la creme de la creme "</h5>
-        <Marquee>
+        <Marquee
+        speed={150}
+        >
             <div>
-                <img src={image1} alt="cz" className='mr-12'/>
+                <img src={image1} alt="cz" className='mr-12 w-52'/>
             </div>
             <div>
-                <img src={image2} alt="musk" className='mr-12'/>
+                <img src={image2} alt="musk" className='mr-12 w-52'/>
             </div>
             <div>
-                <img src={image3} alt="macron" className='mr-12'/>
+                <img src={image3} alt="macron" className='mr-12 w-52'/>
             </div>
             <div>
                 <img src={image4} alt="rotchild" className='mr-12'/>
             </div>
             <div>
-                <img src={image5} alt="sbf" className='mr-12'/>
+                <img src={image5} alt="sbf" className='mr-12 w-52'/>
             </div>
         </Marquee>
         </section>
